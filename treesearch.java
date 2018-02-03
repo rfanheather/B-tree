@@ -5,7 +5,7 @@ import java.io.*;
 
 public class treesearch {
     /**
-     * TODO convert the input file into command lines
+     * convert the input file into command lines
      *
      * @param fileName
      * @return command lines
@@ -31,7 +31,7 @@ public class treesearch {
     }
 
     /**
-     * TODO Implement commands in the text file
+     * Implement commands in the text file
      *
      * @param commandArgs, tree, writer
      *
