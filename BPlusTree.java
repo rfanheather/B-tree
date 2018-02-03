@@ -11,7 +11,7 @@ public class BPlusTree {
 
     /**
      * Initialize(m)
-     * TODO Initialize the tree with degree of m, set the root as a leaf node.
+     * Initialize the tree with degree of m, set the root as a leaf node.
      *
      * @param m
      *
@@ -24,7 +24,7 @@ public class BPlusTree {
 
     /**
      * Search(key)
-     * TODO returns all values associated with a specific key.
+     * returns all values associated with a specific key.
      *
      * @param key
      * @return value
@@ -52,7 +52,7 @@ public class BPlusTree {
 
     /**
      * Search(key1, key2)
-     * TODO returns all key value pairs such that key1 <= key <= key2.
+     * returns all key value pairs such that key1 <= key <= key2.
      *
      * @param key1, key2
      * @return value
@@ -69,7 +69,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO traverse all the leaf nodes which contain keys in range of (key1, key2),
+     * traverse all the leaf nodes which contain keys in range of (key1, key2),
      *      stops until the first key of next leaf is larger than key2, or it is the last leaf of the tree.
      *
      * @param leaf, result, key1, key2
@@ -89,7 +89,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO returns the leaf node which might contain value associated with key
+     * returns the leaf node which might contain value associated with key
      *
      * @param key
      * @return node
@@ -125,7 +125,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO Insert a pair of (key, value) into the tree
+     * Insert a pair of (key, value) into the tree
      *
      * @param key, value
      */
@@ -200,7 +200,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO copy the pairs of a leaf node into two new leaf nodes
+     * copy the pairs of a leaf node into two new leaf nodes
      *
      * @param left, right, leaf
      */
@@ -234,7 +234,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO Update the parent node of a node after insertion
+     * Update the parent node of a node after insertion
      *
      * @param parent
      */
@@ -295,7 +295,7 @@ public class BPlusTree {
     }
 
     /**
-     * TODO insert a new pair(key, value) into a leaf node
+     * insert a new pair(key, value) into a leaf node
      *
      * @param leaf, key, value
      */
