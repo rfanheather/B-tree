@@ -9,14 +9,14 @@ public class MyPair {
     }
 
     /**
-     * TODO return the key of the pair
+     * return the key of the pair
      *
      * @return key information
      */
     public Double key()   { return key; }
 
     /**
-     * TODO return the value of the pair
+     * return the value of the pair
      *
      * @return value information
      */
